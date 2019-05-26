@@ -37,6 +37,7 @@ def geturl():
 	except:
 		print "ERROR"
 #过滤无用的信息
+'''
 def Clear():
 	url=[]
 	with open("url.txt") as f:
@@ -48,5 +49,6 @@ def Clear():
 										f2 = open('out.txt','a+')
 				                        f2.write(url+"\n")
 				                        f2.close()
+'''
 main()			
 									
